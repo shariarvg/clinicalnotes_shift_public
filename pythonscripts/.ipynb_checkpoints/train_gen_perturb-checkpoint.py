@@ -1,0 +1,153 @@
+import pandas as pd
+import numpy as np
+import sys, os
+sys.path.append(os.path.abspath("../pythontools"))
+from mimic_tools import MIMICEndpoint
+from mimic_source import MIMICSource
+import torch
+import torch.nn as nn
+from torch.optim import AdamW
+from transformers import get_scheduler
+from torch.utils.data import DataLoader
+from transformers import AutoTokenizer, AutoModel
+
+commit_hash = sys.argv[1]
+commit_link = "https://github.com/shariarvg/clinicalnotes_shift/commit/"+commit_hash
+
+model_name = "UFNLP/gatortron-base"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+max_length = 100
+n_epochs = 50
+
+device = 'cuda'
+
+
+class NotesDataset(torch.utils.data.Dataset):
+    def __init__(self, data, task):
+        self.notes_data = list(data['text']) # List of tuples (original, positive, negative)
+        self.labels = list(data[task])
+        
+    def __len__(self):
+        return len(self.notes_data)
+
+    def __getitem__(self, idx):
+        text = self.notes_data[idx]
+        label = self.labels[idx]
+        
+        encoded = tokenizer(
+            text,
+            truncation=True,
+            padding="max_length",
+            max_length=max_length,
+            return_tensors="pt"
+        )
+        
+        return {
+            "input_ids": encoded["input_ids"].squeeze(0),  # Remove batch dimension
+            "attention_mask": encoded["attention_mask"].squeeze(0),
+            "labels": torch.tensor(label, dtype=torch.long)
+        }
+
+class GatorTronWithClassifier(nn.Module):
+    def __init__(self, base_model, num_labels):
+        super(GatorTronWithClassifier, self).__init__()
+        self.base_model = base_model
+        self.dropout = nn.Dropout(0.1)  # Regularization
+        self.classifier = nn.Linear(base_model.config.hidden_size, num_labels)
+
+    def forward(self, input_ids, attention_mask=None, token_type_ids=None):
+        # Pass inputs through the base model
+
+        outputs = self.base_model(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
+        # Use the [CLS] token representation for classification
+        cls_output = outputs.last_hidden_state[:, 0, :]
+        # Apply dropout and classifier
+        cls_output = self.dropout(cls_output)
+        logits = self.classifier(cls_output)
+        return logits
+    
+def fine_tune_gtron_task_dataset(notes_dataset, save_name):
+
+    
+    model_base = AutoModel.from_pretrained(model_name).to(device)
+
+    
+    
+    criterion = nn.CrossEntropyLoss()
+    dataset = NotesDataset(notes_dataset, 'task')#.to(device)
+    dataloader = DataLoader(dataset, batch_size=4, shuffle=True)
+    model = GatorTronWithClassifier(model_base, 2).to(device)
+    optimizer = AdamW(model.parameters(), lr=5e-5)
+    num_training_steps = len(dataloader) * n_epochs
+    lr_scheduler = get_scheduler(
+        "linear", optimizer=optimizer, num_warmup_steps=0, num_training_steps=num_training_steps
+    )
+    
+    
+
+
+    ## NOT included in original V. meant to speed up training
+    for name, param in model_base.named_parameters():
+        if not any(layer in name for layer in ["encoder.layer.21", "encoder.layer.22", "encoder.layer.23", "embeddings"]):
+            param.requires_grad = False
+
+    for epoch in range(n_epochs):
+        epoch_loss = 0.0
+        for batch in dataloader:
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
+            labels = batch['labels'].to(device)
+
+            outputs = model(input_ids, attention_mask)
+            loss = criterion(outputs, labels)
+
+            # Backward pass
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+            # Update learning rate
+            lr_scheduler.step()
+
+            epoch_loss += loss.item()
+            
+        print(f"Epoch {epoch+1} of {save_name} completed")
+
+    torch.save(model.state_dict(), save_name + "_model.pt")
+             
+ep = MIMICEndpoint()
+
+to_remove = {'dm2':['dm', 'dm2', 'dmii'], 'htn': 'htn'}
+
+disease = sys.argv[2]
+year1 = int(sys.argv[3])
+year2 = int(sys.argv[4])
+V = 1
+jargon_keywords = to_remove[disease]
+
+
+save_name_in = f'../../experimentresults/{disease}_{year1}_{year2}_V{V}'
+if disease in ['admission_in_30_days', 'death']:
+    note_ids = np.load(f'../../experimentresults/cardio_{year1}_{year2}_V{V}' + "_note_id.npy", allow_pickle = True)
+    notes = pd.DataFrame({"note_id": note_ids})
+    notes = pd.merge(notes, ep.notes[['note_id', 'text', 'start_year', disease]], how = 'left', on = 'note_id') 
+    notes['task'] = notes[disease].values
+else:
+    note_ids = np.load(save_name_in + "_note_id.npy", allow_pickle = True)
+    answers = pd.read_csv(save_name_in + "_diagnosis_answers.csv")
+    answers['task'] = answers['0'].str.contains("Yes").astype(int)
+    notes = pd.DataFrame({"note_id": note_ids})
+
+    notes = pd.merge(notes, ep.notes[['note_id', 'text', 'start_year']], how = 'left', on = 'note_id')
+    notes['task'] = answers['task'].values
+
+notes_train = notes[(notes['start_year']==year1)].iloc[:2000]
+notes_train = ep.get_notes_without_jargon(jargon_keywords, notes = notes_train)
+
+save_name_out = f'../../experimentresults/{disease}_{year1}_{year2}_jargonlesstrain_V{V}'
+
+fine_tune_gtron_task_dataset(notes_train, save_name_out)
+
+with open(save_name_out + "_model_training.txt", 'w') as f:
+    f.write("train_gen.py\n")
+    f.write(commit_link)

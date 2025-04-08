@@ -1,0 +1,910 @@
+/home/users/sv226/.local/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+(200, 1024)
+(160, 1024)
+(40, 1024)
+5.113450288772583 seconds elapsed for updating du, dv, dB
+Norm dB: 0.0
+0.0024645328521728516 seconds elapsed for power iteration of B
+0.0001347064971923828 seconds elapsed for calculating wasserstein distance
+Beta_0: [0.03125 0.03125 0.03125 ... 0.03125 0.03125 0.03125]
+Objective_0 function: 0.020768761259083952
+Iteration 0 completed
+27.638919353485107 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.469618320465088 seconds elapsed for eigendecomposition
+2.259770154953003 seconds elapsed for quadratic programming solution
+0.0062334537506103516 seconds elapsed for power iteration of B
+0.0002295970916748047 seconds elapsed for calculating wasserstein distance
+Beta_1: [0.03125037 0.0312487  0.03126492 ... 0.03122538 0.03125602 0.03124488]
+Objective_1 function: 0.022096525201141397
+4.978806257247925 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4535727500915527 seconds elapsed for eigendecomposition
+2.213200330734253 seconds elapsed for quadratic programming solution
+0.007332801818847656 seconds elapsed for power iteration of B
+0.0002205371856689453 seconds elapsed for calculating wasserstein distance
+Beta_2: [0.03125144 0.03124695 0.03128264 ... 0.03119482 0.03126294 0.0312397 ]
+Objective_2 function: 0.023698636377168115
+4.957641839981079 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4968998432159424 seconds elapsed for eigendecomposition
+2.2498109340667725 seconds elapsed for quadratic programming solution
+0.007281303405761719 seconds elapsed for power iteration of B
+0.00013065338134765625 seconds elapsed for calculating wasserstein distance
+Beta_3: [0.03125356 0.03124454 0.03130412 ... 0.03115596 0.031271   0.03123452]
+Objective_3 function: 0.0256646494468075
+5.065918684005737 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4572317600250244 seconds elapsed for eigendecomposition
+2.2163970470428467 seconds elapsed for quadratic programming solution
+0.009676694869995117 seconds elapsed for power iteration of B
+0.00023794174194335938 seconds elapsed for calculating wasserstein distance
+Beta_4: [0.0312573  0.0312412  0.03133076 ... 0.03110534 0.03128057 0.03122951]
+Objective_4 function: 0.02813766507193636
+7.051424503326416 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.5041897296905518 seconds elapsed for eigendecomposition
+2.2645225524902344 seconds elapsed for quadratic programming solution
+0.01079702377319336 seconds elapsed for power iteration of B
+0.00013518333435058594 seconds elapsed for calculating wasserstein distance
+Beta_5: [0.0312637  0.03123644 0.03136502 ... 0.03103676 0.03129226 0.03122497]
+Objective_5 function: 0.031355769266832555
+5.081869125366211 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.447950839996338 seconds elapsed for eigendecomposition
+2.2058753967285156 seconds elapsed for quadratic programming solution
+0.012016057968139648 seconds elapsed for power iteration of B
+0.00023818016052246094 seconds elapsed for calculating wasserstein distance
+Beta_6: [0.03127468 0.03122937 0.03141115 ... 0.03093898 0.03130704 0.03122153]
+Objective_6 function: 0.03590307011759726
+7.082921028137207 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4974143505096436 seconds elapsed for eigendecomposition
+2.2566707134246826 seconds elapsed for quadratic programming solution
+0.016803264617919922 seconds elapsed for power iteration of B
+0.00012826919555664062 seconds elapsed for calculating wasserstein distance
+Beta_7: [0.03129404 0.03121822 0.03147739 ... 0.03079025 0.03132679 0.03122043]
+Objective_7 function: 0.042555226101892385
+5.0450615882873535 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.449639081954956 seconds elapsed for eigendecomposition
+2.20737361907959 seconds elapsed for quadratic programming solution
+0.021269559860229492 seconds elapsed for power iteration of B
+0.0001373291015625 seconds elapsed for calculating wasserstein distance
+Beta_8: [0.03133116 0.03119865 0.03158339 ... 0.0305375  0.03135573 0.03122487]
+Objective_8 function: 0.0535220692930459
+5.957496166229248 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4883103370666504 seconds elapsed for eigendecomposition
+2.2468318939208984 seconds elapsed for quadratic programming solution
+0.02484726905822754 seconds elapsed for power iteration of B
+0.00020742416381835938 seconds elapsed for calculating wasserstein distance
+Beta_9: [0.03141374 0.03115736 0.03178666 ... 0.03002225 0.0314058  0.03124414]
+Objective_9 function: 0.07590929261867793
+4.964440584182739 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.442058801651001 seconds elapsed for eigendecomposition
+2.1991782188415527 seconds elapsed for quadratic programming solution
+0.05045294761657715 seconds elapsed for power iteration of B
+0.0001227855682373047 seconds elapsed for calculating wasserstein distance
+Beta_10: [0.03168061 0.03102051 0.03237745 ... 0.02842194 0.03153215 0.03132198]
+Objective_10 function: 0.14630502132945858
+5.017992258071899 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4853084087371826 seconds elapsed for eigendecomposition
+2.244209051132202 seconds elapsed for quadratic programming solution
+0.7621006965637207 seconds elapsed for power iteration of B
+0.00022101402282714844 seconds elapsed for calculating wasserstein distance
+Beta_11: [ 0.02926425  0.01226345  0.04145438 ... -0.04772042  0.02261523
+  0.02162769]
+Objective_11 function: 2.8784518402247405
+5.007401704788208 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4351024627685547 seconds elapsed for eigendecomposition
+2.192265510559082 seconds elapsed for quadratic programming solution
+0.09602165222167969 seconds elapsed for power iteration of B
+0.00012445449829101562 seconds elapsed for calculating wasserstein distance
+Beta_12: [ 0.0158027  -0.00459739  0.0302624  ... -0.07637482  0.00774142
+  0.00668415]
+Objective_12 function: 3.43030293063405
+5.0895209312438965 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4711689949035645 seconds elapsed for eigendecomposition
+2.235142707824707 seconds elapsed for quadratic programming solution
+0.05297732353210449 seconds elapsed for power iteration of B
+0.00014328956604003906 seconds elapsed for calculating wasserstein distance
+Beta_13: [ 0.01523567 -0.00517845  0.02970026 ... -0.07699927  0.00716636
+  0.0061122 ]
+Objective_13 function: 3.431953130261056
+4.981592655181885 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4284167289733887 seconds elapsed for eigendecomposition
+2.186269760131836 seconds elapsed for quadratic programming solution
+0.03649258613586426 seconds elapsed for power iteration of B
+0.00020742416381835938 seconds elapsed for calculating wasserstein distance
+Beta_14: [-0.01504056  0.0053767  -0.02950576 ...  0.07720674 -0.00696919
+ -0.00591618]
+Objective_14 function: 3.4322482607478557
+5.101409912109375 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4628894329071045 seconds elapsed for eigendecomposition
+2.2249348163604736 seconds elapsed for quadratic programming solution
+0.03060770034790039 seconds elapsed for power iteration of B
+0.00012111663818359375 seconds elapsed for calculating wasserstein distance
+Beta_15: [-0.01494199  0.00547656 -0.02940728 ...  0.07731016 -0.00686969
+ -0.00581727]
+Objective_15 function: 3.4323450763198062
+4.971149444580078 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4147279262542725 seconds elapsed for eigendecomposition
+2.184722900390625 seconds elapsed for quadratic programming solution
+0.02258777618408203 seconds elapsed for power iteration of B
+0.00023031234741210938 seconds elapsed for calculating wasserstein distance
+Beta_16: [-0.01488248  0.00553673 -0.02934777 ...  0.07737212 -0.00680967
+ -0.00575761]
+Objective_16 function: 3.432386631638251
+5.076945781707764 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.447221279144287 seconds elapsed for eigendecomposition
+2.2143795490264893 seconds elapsed for quadratic programming solution
+0.01904916763305664 seconds elapsed for power iteration of B
+0.00013184547424316406 seconds elapsed for calculating wasserstein distance
+Beta_17: [ 0.01484267 -0.0055769   0.02930798 ... -0.07741334  0.00676958
+  0.00571776]
+Objective_17 function: 3.4324073402710598
+5.040987730026245 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.402763843536377 seconds elapsed for eigendecomposition
+2.1665403842926025 seconds elapsed for quadratic programming solution
+0.015446901321411133 seconds elapsed for power iteration of B
+0.0001571178436279297 seconds elapsed for calculating wasserstein distance
+Beta_18: [-0.01481414  0.00560565 -0.02927939 ...  0.07744283 -0.0067408
+ -0.00568917]
+Objective_18 function: 3.4324187367686547
+6.053488731384277 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4455184936523438 seconds elapsed for eigendecomposition
+2.2083003520965576 seconds elapsed for quadratic programming solution
+0.01318502426147461 seconds elapsed for power iteration of B
+0.0002238750457763672 seconds elapsed for calculating wasserstein distance
+Beta_19: [ 0.01479273 -0.00562725  0.02925796 ... -0.07746489  0.00671921
+  0.00566766]
+Objective_19 function: 3.4324254123033153
+4.9607744216918945 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.3988254070281982 seconds elapsed for eigendecomposition
+2.1597867012023926 seconds elapsed for quadratic programming solution
+0.011991739273071289 seconds elapsed for power iteration of B
+0.0001266002655029297 seconds elapsed for calculating wasserstein distance
+Beta_20: [-0.01477605  0.00564406 -0.02924123 ...  0.07748207 -0.00670237
+ -0.00565094]
+Objective_20 function: 3.432429497590092
+Iteration 20 completed
+5.013226747512817 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.443643569946289 seconds elapsed for eigendecomposition
+2.1990814208984375 seconds elapsed for quadratic programming solution
+0.009610414505004883 seconds elapsed for power iteration of B
+0.00013494491577148438 seconds elapsed for calculating wasserstein distance
+Beta_21: [ 0.01476271 -0.00565752  0.02922785 ... -0.07749578  0.00668893
+  0.00563755]
+Objective_21 function: 3.4324320905928984
+4.961864948272705 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4100337028503418 seconds elapsed for eigendecomposition
+2.1735401153564453 seconds elapsed for quadratic programming solution
+0.006176471710205078 seconds elapsed for power iteration of B
+0.00021457672119140625 seconds elapsed for calculating wasserstein distance
+Beta_22: [ 0.01475176 -0.00566856  0.02921688 ... -0.07750701  0.0066779
+  0.00562658]
+Objective_22 function: 3.432433855193146
+6.052942514419556 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4685966968536377 seconds elapsed for eigendecomposition
+2.237928867340088 seconds elapsed for quadratic programming solution
+0.004960060119628906 seconds elapsed for power iteration of B
+0.0001456737518310547 seconds elapsed for calculating wasserstein distance
+Beta_23: [-0.01474253  0.00567788 -0.02920759 ...  0.07751649 -0.00666858
+ -0.00561733]
+Objective_23 function: 3.432434691550786
+5.003412485122681 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4317114353179932 seconds elapsed for eigendecomposition
+2.1914427280426025 seconds elapsed for quadratic programming solution
+0.006197214126586914 seconds elapsed for power iteration of B
+0.00023508071899414062 seconds elapsed for calculating wasserstein distance
+Beta_24: [ 0.01473409 -0.00568637  0.02919921 ... -0.07752509  0.00666015
+  0.00560889]
+Objective_24 function: 3.4324360523626263
+6.052792310714722 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4645686149597168 seconds elapsed for eigendecomposition
+2.221095085144043 seconds elapsed for quadratic programming solution
+0.0049855709075927734 seconds elapsed for power iteration of B
+0.00014352798461914062 seconds elapsed for calculating wasserstein distance
+Beta_25: [ 0.01472636 -0.00569415  0.0291915  ... -0.07753297  0.0066524
+  0.00560116]
+Objective_25 function: 3.432436773102604
+5.003370761871338 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4322319030761719 seconds elapsed for eigendecomposition
+2.190758228302002 seconds elapsed for quadratic programming solution
+0.005044460296630859 seconds elapsed for power iteration of B
+0.00021886825561523438 seconds elapsed for calculating wasserstein distance
+Beta_26: [ 0.01471929 -0.00570127  0.02918442 ... -0.0775402   0.00664529
+  0.00559408]
+Objective_26 function: 3.4324370910762037
+5.082003116607666 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4709019660949707 seconds elapsed for eigendecomposition
+2.229696273803711 seconds elapsed for quadratic programming solution
+0.004951953887939453 seconds elapsed for power iteration of B
+0.00014257431030273438 seconds elapsed for calculating wasserstein distance
+Beta_27: [ 0.0147128  -0.00570781  0.02917795 ... -0.07754681  0.0066388
+  0.00558758]
+Objective_27 function: 3.432437518344691
+4.98660683631897 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4323718547821045 seconds elapsed for eigendecomposition
+2.1906380653381348 seconds elapsed for quadratic programming solution
+0.004971027374267578 seconds elapsed for power iteration of B
+0.0001373291015625 seconds elapsed for calculating wasserstein distance
+Beta_28: [-0.01470686  0.00571379 -0.029172   ...  0.07755287 -0.00663282
+ -0.00558165]
+Objective_28 function: 3.43243742183917
+7.05019474029541 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4810965435533
+1.4641799926757812 seconds elapsed for eigendecomposition
+2.221494436264038 seconds elapsed for quadratic programming solution
+0.0049860477447509766 seconds elapsed for power iteration of B
+0.0002090930938720703 seconds elapsed for calculating wasserstein distance
+Beta_29: [ 0.01470143 -0.00571927  0.02916654 ... -0.07755843  0.00662735
+  0.0055762 ]
+Objective_29 function: 3.4324371829944624
+4.981417894363403 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.4961839141026
+1.4393188953399658 seconds elapsed for eigendecomposition
+2.1956286430358887 seconds elapsed for quadratic programming solution
+0.0049593448638916016 seconds elapsed for power iteration of B
+0.00013709068298339844 seconds elapsed for calculating wasserstein distance
+Beta_30: [ 0.01469644 -0.00572431  0.02916155 ... -0.07756351  0.00662234
+  0.0055712 ]
+Objective_30 function: 3.4324371725727083
+7.052790403366089 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.5129935727768
+1.4722168445587158 seconds elapsed for eigendecomposition
+2.228855848312378 seconds elapsed for quadratic programming solution
+0.0049822330474853516 seconds elapsed for power iteration of B
+0.0002052783966064453 seconds elapsed for calculating wasserstein distance
+Beta_31: [-0.01469189  0.00572892 -0.02915695 ...  0.07756818 -0.00661774
+ -0.00556663]
+Objective_31 function: 3.432436873959248
+4.974055290222168 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.531525459584
+1.4324898719787598 seconds elapsed for eigendecomposition
+2.1888809204101562 seconds elapsed for quadratic programming solution
+0.004953861236572266 seconds elapsed for power iteration of B
+0.00014138221740722656 seconds elapsed for calculating wasserstein distance
+Beta_32: [ 0.01468772 -0.00573316  0.02915275 ... -0.07757246  0.00661353
+  0.00556242]
+Objective_32 function: 3.4324368972762134
+7.053943634033203 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.5517795086662
+1.4652748107910156 seconds elapsed for eigendecomposition
+2.222484588623047 seconds elapsed for quadratic programming solution
+0.006182670593261719 seconds elapsed for power iteration of B
+0.00022649765014648438 seconds elapsed for calculating wasserstein distance
+Beta_33: [-0.01468393  0.00573704 -0.02914884 ...  0.0775764  -0.00660964
+ -0.00555859]
+Objective_33 function: 3.4324363910450537
+4.969221591949463 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.5737556478189
+1.4327888488769531 seconds elapsed for eigendecomposition
+2.190012216567993 seconds elapsed for quadratic programming solution
+0.004967927932739258 seconds elapsed for power iteration of B
+0.00014472007751464844 seconds elapsed for calculating wasserstein distance
+Beta_34: [ 0.01468045 -0.00574061  0.02914529 ... -0.07758     0.0066061
+  0.00555505]
+Objective_34 function: 3.432436338371382
+4.968353509902954 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.5974537989705
+1.4700419902801514 seconds elapsed for eigendecomposition
+2.227557897567749 seconds elapsed for quadratic programming solution
+0.005001068115234375 seconds elapsed for power iteration of B
+0.00022292137145996094 seconds elapsed for calculating wasserstein distance
+Beta_35: [ 0.0146773  -0.00574387  0.02914198 ... -0.07758332  0.00660281
+  0.00555183]
+Objective_35 function: 3.4324357611986267
+5.04381537437439 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.6228738777334
+1.4319636821746826 seconds elapsed for eigendecomposition
+2.188987970352173 seconds elapsed for quadratic programming solution
+0.004942417144775391 seconds elapsed for power iteration of B
+0.00014257431030273438 seconds elapsed for calculating wasserstein distance
+Beta_36: [ 0.0146744  -0.00574688  0.02913896 ... -0.07758636  0.00659982
+  0.00554887]
+Objective_36 function: 3.432435525624157
+6.006781101226807 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.650015793595
+1.459925889968872 seconds elapsed for eigendecomposition
+2.2169175148010254 seconds elapsed for quadratic programming solution
+0.00495457649230957 seconds elapsed for power iteration of B
+0.00014138221740722656 seconds elapsed for calculating wasserstein distance
+Beta_37: [ 0.01467174 -0.00574964  0.02913621 ... -0.07758914  0.00659709
+  0.00554614]
+Objective_37 function: 3.4324356230118855
+5.043900728225708 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.6788794500303
+1.431992530822754 seconds elapsed for eigendecomposition
+2.190117120742798 seconds elapsed for quadratic programming solution
+0.005013465881347656 seconds elapsed for power iteration of B
+0.000213623046875 seconds elapsed for calculating wasserstein distance
+Beta_38: [ 0.01466935 -0.00575217  0.02913364 ... -0.07759171  0.00659455
+  0.00554365]
+Objective_38 function: 3.4324352144931756
+6.004931449890137 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.7094647443016
+1.4649474620819092 seconds elapsed for eigendecomposition
+2.2303240299224854 seconds elapsed for quadratic programming solution
+0.006142377853393555 seconds elapsed for power iteration of B
+0.00014066696166992188 seconds elapsed for calculating wasserstein distance
+Beta_39: [ 0.01466716 -0.00575449  0.02913128 ... -0.07759406  0.00659223
+  0.00554137]
+Objective_39 function: 3.432435017925833
+5.055679559707642 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.741771567633
+1.4355270862579346 seconds elapsed for eigendecomposition
+2.194446325302124 seconds elapsed for quadratic programming solution
+0.006165504455566406 seconds elapsed for power iteration of B
+0.000217437744140625 seconds elapsed for calculating wasserstein distance
+Beta_40: [-0.01466516  0.00575662 -0.02912911 ...  0.07759622 -0.0065901
+ -0.00553927]
+Objective_40 function: 3.4324348678510574
+Iteration 40 completed
+7.062577724456787 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.7757998050613
+1.4682269096374512 seconds elapsed for eigendecomposition
+2.234360694885254 seconds elapsed for quadratic programming solution
+0.006143093109130859 seconds elapsed for power iteration of B
+0.0001456737518310547 seconds elapsed for calculating wasserstein distance
+Beta_41: [-0.01466334  0.00575858 -0.02912711 ...  0.07759821 -0.00658815
+ -0.00553735]
+Objective_41 function: 3.432434718145824
+4.969343423843384 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.811549335607
+1.4369573593139648 seconds elapsed for eigendecomposition
+2.2037062644958496 seconds elapsed for quadratic programming solution
+0.005057334899902344 seconds elapsed for power iteration of B
+0.0002429485321044922 seconds elapsed for calculating wasserstein distance
+Beta_42: [-0.01466167  0.00576038 -0.02912527 ...  0.07760003 -0.00658635
+ -0.00553558]
+Objective_42 function: 3.4324346908049823
+4.9817469120025635 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.8264571628777
+1.4732704162597656 seconds elapsed for eigendecomposition
+2.2406351566314697 seconds elapsed for quadratic programming solution
+0.006098031997680664 seconds elapsed for power iteration of B
+0.00012540817260742188 seconds elapsed for calculating wasserstein distance
+Beta_43: [ 0.01466016 -0.00576204  0.02912358 ... -0.07760171  0.0065847
+  0.00553397]
+Objective_43 function: 3.432434482487942
+4.978296518325806 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.8789392339495
+1.4343974590301514 seconds elapsed for eigendecomposition
+2.1919195652008057 seconds elapsed for quadratic programming solution
+0.005007743835449219 seconds elapsed for power iteration of B
+0.0002262592315673828 seconds elapsed for calculating wasserstein distance
+Beta_44: [ 0.01465878 -0.00576355  0.029122   ... -0.07760325  0.00658318
+  0.00553249]
+Objective_44 function: 3.4324342698412305
+4.983442068099976 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.9332458204694
+1.4653573036193848 seconds elapsed for eigendecomposition
+2.222855806350708 seconds elapsed for quadratic programming solution
+0.0049436092376708984 seconds elapsed for power iteration of B
+0.00013399124145507812 seconds elapsed for calculating wasserstein distance
+Beta_45: [ 0.01465752 -0.00576495  0.02912057 ... -0.07760467  0.00658179
+  0.00553113]
+Objective_45 function: 3.4324343757227873
+4.970140218734741 seconds elapsed for updating du, dv, dB
+Norm dB: 1451.9893767177102
+1.4302072525024414 seconds elapsed for eigendecomposition
+2.1856372356414795 seconds elapsed for quadratic programming solution
+0.0049304962158203125 seconds elapsed for power iteration of B
+0.00013971328735351562 seconds elapsed for calculating wasserstein distance
+Beta_46: [ 0.01465638 -0.00576623  0.02911923 ... -0.07760598  0.0065805
+  0.00552988]
+Objective_46 function: 3.4324342628034668
+4.989376544952393 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.0473317141068
+1.4730572700500488 seconds elapsed for eigendecomposition
+2.228283405303955 seconds elapsed for quadratic programming solution
+0.004999876022338867 seconds elapsed for power iteration of B
+0.0002167224884033203 seconds elapsed for calculating wasserstein distance
+Beta_47: [ 0.01465533 -0.00576742  0.02911802 ... -0.07760717  0.00657934
+  0.00552872]
+Objective_47 function: 3.432434592943326
+4.969261646270752 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.107110591291
+1.4346234798431396 seconds elapsed for eigendecomposition
+2.191176414489746 seconds elapsed for quadratic programming solution
+0.004990100860595703 seconds elapsed for power iteration of B
+0.00015354156494140625 seconds elapsed for calculating wasserstein distance
+Beta_48: [-0.0146544   0.0057685  -0.02911687 ...  0.07760828 -0.00657825
+ -0.00552768]
+Objective_48 function: 3.4324345403494836
+4.982153654098511 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.1687131239114
+1.4717423915863037 seconds elapsed for eigendecomposition
+2.2292723655700684 seconds elapsed for quadratic programming solution
+0.005005836486816406 seconds elapsed for power iteration of B
+0.00025200843811035156 seconds elapsed for calculating wasserstein distance
+Beta_49: [ 0.01465356 -0.0057695   0.02911578 ... -0.07760932  0.00657722
+  0.00552672]
+Objective_49 function: 3.432434315340316
+4.979044675827026 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.2321390800178
+1.4336495399475098 seconds elapsed for eigendecomposition
+2.1961538791656494 seconds elapsed for quadratic programming solution
+0.004929304122924805 seconds elapsed for power iteration of B
+0.00013494491577148438 seconds elapsed for calculating wasserstein distance
+Beta_50: [-0.01465279  0.00577042 -0.0291148  ...  0.07761026 -0.0065763
+ -0.00552584]
+Objective_50 function: 3.432434500774724
+4.996615886688232 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.297388220623
+1.466158390045166 seconds elapsed for eigendecomposition
+2.226457118988037 seconds elapsed for quadratic programming solution
+0.005092620849609375 seconds elapsed for power iteration of B
+0.0002377033233642578 seconds elapsed for calculating wasserstein distance
+Beta_51: [ 0.01465212 -0.00577127  0.02911386 ... -0.07761114  0.00657543
+  0.00552504]
+Objective_51 function: 3.4324342768857106
+5.054333209991455 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.3744823803695
+1.4357314109802246 seconds elapsed for eigendecomposition
+2.1942672729492188 seconds elapsed for quadratic programming solution
+0.0049512386322021484 seconds elapsed for power iteration of B
+0.0001304149627685547 seconds elapsed for calculating wasserstein distance
+Beta_52: [-0.01465148  0.00577205 -0.02911303 ...  0.07761194 -0.00657466
+ -0.00552428]
+Objective_52 function: 3.432434721666891
+6.008139133453369 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.4274312966838
+1.47249436378479 seconds elapsed for eigendecomposition
+2.2297494411468506 seconds elapsed for quadratic programming solution
+0.004942655563354492 seconds elapsed for power iteration of B
+0.00013971328735351562 seconds elapsed for calculating wasserstein distance
+Beta_53: [ 0.01465091 -0.00577278  0.02911224 ... -0.07761269  0.00657394
+  0.00552359]
+Objective_53 function: 3.4324349058124213
+5.060873746871948 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.5236038054607
+1.4346652030944824 seconds elapsed for eigendecomposition
+2.194321870803833 seconds elapsed for quadratic programming solution
+0.0061419010162353516 seconds elapsed for power iteration of B
+0.0002079010009765625 seconds elapsed for calculating wasserstein distance
+Beta_54: [-0.0146504   0.00577343 -0.0291115  ...  0.07761338 -0.00657326
+ -0.00552296]
+Objective_54 function: 3.4324351128384554
+6.0062761306762695 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.579990288592
+1.4678785800933838 seconds elapsed for eigendecomposition
+2.221012592315674 seconds elapsed for quadratic programming solution
+0.004991292953491211 seconds elapsed for power iteration of B
+0.00012445449829101562 seconds elapsed for calculating wasserstein distance
+Beta_55: [-0.01464994  0.00577404 -0.0291108  ...  0.07761403 -0.00657263
+ -0.00552239]
+Objective_55 function: 3.432435329399267
+5.062148332595825 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.6802261391997
+1.4384658336639404 seconds elapsed for eigendecomposition
+2.1969375610351562 seconds elapsed for quadratic programming solution
+0.006225109100341797 seconds elapsed for power iteration of B
+0.00022292137145996094 seconds elapsed for calculating wasserstein distance
+Beta_56: [ 0.0146495  -0.00577459  0.02911016 ... -0.07761462  0.00657205
+  0.00552185]
+Objective_56 function: 3.432435844559494
+6.008111000061035 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.740049166373
+1.4664418697357178 seconds elapsed for eigendecomposition
+2.2205488681793213 seconds elapsed for quadratic programming solution
+0.0061037540435791016 seconds elapsed for power iteration of B
+0.000152587890625 seconds elapsed for calculating wasserstein distance
+Beta_57: [ 0.01464911 -0.0057751   0.02910955 ... -0.07761518  0.00657151
+  0.00552136]
+Objective_57 function: 3.432436172867211
+4.982706546783447 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.8443469557308
+1.4350864887237549 seconds elapsed for eigendecomposition
+2.188899278640747 seconds elapsed for quadratic programming solution
+0.0050237178802490234 seconds elapsed for power iteration of B
+0.0002186298370361328 seconds elapsed for calculating wasserstein distance
+Beta_58: [ 0.01464875 -0.00577556  0.02910897 ... -0.0776157   0.006571
+  0.00552091]
+Objective_58 function: 3.4324366707903677
+4.980714559555054 seconds elapsed for updating du, dv, dB
+Norm dB: 1452.9076054514965
+1.471451759338379 seconds elapsed for eigendecomposition
+2.237962484359741 seconds elapsed for quadratic programming solution
+0.006083011627197266 seconds elapsed for power iteration of B
+0.00014448165893554688 seconds elapsed for calculating wasserstein distance
+Beta_59: [-0.01464844  0.00577599 -0.02910842 ...  0.07761619 -0.00657053
+ -0.00552051]
+Objective_59 function: 3.432436970726461
+4.980047941207886 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.0332171734321
+1.4308545589447021 seconds elapsed for eigendecomposition
+2.194363832473755 seconds elapsed for quadratic programming solution
+0.004937648773193359 seconds elapsed for power iteration of B
+0.000133514404296875 seconds elapsed for calculating wasserstein distance
+Beta_60: [-0.01464813  0.00577636 -0.02910789 ...  0.07761666 -0.00657007
+ -0.00552014]
+Objective_60 function: 3.4324374668638873
+Iteration 60 completed
+4.959094047546387 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.0999115207437
+1.468235731124878 seconds elapsed for eigendecomposition
+2.2318198680877686 seconds elapsed for quadratic programming solution
+0.0049571990966796875 seconds elapsed for power iteration of B
+0.00021219253540039062 seconds elapsed for calculating wasserstein distance
+Beta_61: [ 0.01464782 -0.00577671  0.02910743 ... -0.07761709  0.00656967
+  0.00551979]
+Objective_61 function: 3.432438446944502
+4.985569477081299 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.1792099047261
+1.4347515106201172 seconds elapsed for eigendecomposition
+2.1999478340148926 seconds elapsed for quadratic programming solution
+0.0061187744140625 seconds elapsed for power iteration of B
+0.00013017654418945312 seconds elapsed for calculating wasserstein distance
+Beta_62: [ 0.0146476  -0.00577702  0.02910695 ... -0.0776175   0.00656926
+  0.00551949]
+Objective_62 function: 3.4324386892861547
+4.976736545562744 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.311348834122
+1.471886396408081 seconds elapsed for eigendecomposition
+2.237680673599243 seconds elapsed for quadratic programming solution
+0.00617218017578125 seconds elapsed for power iteration of B
+0.0002384185791015625 seconds elapsed for calculating wasserstein distance
+Beta_63: [ 0.01464735 -0.0057773   0.0291065  ... -0.0776179   0.00656888
+  0.00551921]
+Objective_63 function: 3.432439354155028
+4.971135139465332 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.3831944254011
+1.4332892894744873 seconds elapsed for eigendecomposition
+2.1975393295288086 seconds elapsed for quadratic programming solution
+0.004968881607055664 seconds elapsed for power iteration of B
+0.00013637542724609375 seconds elapsed for calculating wasserstein distance
+Beta_64: [-0.01464713  0.00577755 -0.02910607 ...  0.07761827 -0.00656853
+ -0.00551896]
+Objective_64 function: 3.432440045110546
+5.027265548706055 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.4567566065928
+1.4737529754638672 seconds elapsed for eigendecomposition
+2.2377476692199707 seconds elapsed for quadratic programming solution
+0.005048274993896484 seconds elapsed for power iteration of B
+0.00023293495178222656 seconds elapsed for calculating wasserstein distance
+Beta_65: [ 0.01464694 -0.0057778   0.02910567 ... -0.07761863  0.00656819
+  0.00551872]
+Objective_65 function: 3.432440652231344
+5.060585260391235 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.595182916382
+1.435002088546753 seconds elapsed for eigendecomposition
+2.207597017288208 seconds elapsed for quadratic programming solution
+0.006241798400878906 seconds elapsed for power iteration of B
+0.0001327991485595703 seconds elapsed for calculating wasserstein distance
+Beta_66: [ 0.01464674 -0.00577799  0.02910528 ... -0.07761897  0.00656787
+  0.00551851]
+Objective_66 function: 3.432441483031182
+5.02315616607666 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.672177087975
+1.4712414741516113 seconds elapsed for eigendecomposition
+2.2364416122436523 seconds elapsed for quadratic programming solution
+0.004945993423461914 seconds elapsed for power iteration of B
+0.00013709068298339844 seconds elapsed for calculating wasserstein distance
+Beta_67: [-0.01464658  0.00577818 -0.02910489 ...  0.0776193  -0.00656756
+ -0.00551833]
+Objective_67 function: 3.432442071698481
+4.98564076423645 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.8151718764257
+1.43812894821167 seconds elapsed for eigendecomposition
+2.201775074005127 seconds elapsed for quadratic programming solution
+0.006150007247924805 seconds elapsed for power iteration of B
+0.00021195411682128906 seconds elapsed for calculating wasserstein distance
+Beta_68: [ 0.01464638 -0.00577833  0.02910453 ... -0.07761962  0.00656727
+  0.00551816]
+Objective_68 function: 3.432443107463884
+6.055954933166504 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.8955965868922
+1.4716856479644775 seconds elapsed for eigendecomposition
+2.2354073524475098 seconds elapsed for quadratic programming solution
+0.004944562911987305 seconds elapsed for power iteration of B
+0.00013184547424316406 seconds elapsed for calculating wasserstein distance
+Beta_69: [ 0.01464621 -0.00577848  0.02910419 ... -0.07761992  0.006567
+  0.005518  ]
+Objective_69 function: 3.4324441977541973
+5.008088827133179 seconds elapsed for updating du, dv, dB
+Norm dB: 1453.9777363738137
+1.4314379692077637 seconds elapsed for eigendecomposition
+2.1963260173797607 seconds elapsed for quadratic programming solution
+0.0050203800201416016 seconds elapsed for power iteration of B
+0.00021767616271972656 seconds elapsed for calculating wasserstein distance
+Beta_70: [ 0.01464607 -0.00577861  0.02910386 ... -0.07762021  0.00656674
+  0.00551786]
+Objective_70 function: 3.4324450148661296
+6.067814111709595 seconds elapsed for updating du, dv, dB
+Norm dB: 1454.1392152890676
+1.4736192226409912 seconds elapsed for eigendecomposition
+2.2399537563323975 seconds elapsed for quadratic programming solution
+0.004951953887939453 seconds elapsed for power iteration of B
+0.00015592575073242188 seconds elapsed for calculating wasserstein distance
+Beta_71: [ 0.01464592 -0.00577871  0.02910351 ... -0.07762051  0.00656646
+  0.00551774]
+Objective_71 function: 3.432445865890366
+5.010600328445435 seconds elapsed for updating du, dv, dB
+Norm dB: 1454.2247827780193
+1.4350712299346924 seconds elapsed for eigendecomposition
+2.2006571292877197 seconds elapsed for quadratic programming solution
+0.0061762332916259766 seconds elapsed for power iteration of B
+0.00023937225341796875 seconds elapsed for calculating wasserstein distance
+Beta_72: [-0.01464579  0.00577881 -0.02910318 ...  0.07762078 -0.00656621
+ -0.00551764]
+Objective_72 function: 3.432446742128483
+6.051131010055542 seconds elapsed for updating du, dv, dB
+Norm dB: 1454.2247827780193
+1.4722599983215332 seconds elapsed for eigendecomposition
+2.2390172481536865 seconds elapsed for quadratic programming solution
+0.0061206817626953125 seconds elapsed for power iteration of B
+0.00014591217041015625 seconds elapsed for calculating wasserstein distance
+Beta_73: [-0.01464567  0.0057789  -0.02910288 ...  0.07762104 -0.00656598
+ -0.00551754]
+Objective_73 function: 3.4324476181799044
+4.9856157302856445 seconds elapsed for updating du, dv, dB
+Norm dB: 1454.3912840590115
+1.4298069477081299 seconds elapsed for eigendecomposition
+2.1930973529815674 seconds elapsed for quadratic programming solution
+0.0050201416015625 seconds elapsed for power iteration of B
+0.00022411346435546875 seconds elapsed for calculating wasserstein distance
+Beta_74: [ 0.01464551 -0.00577895  0.02910259 ... -0.0776213   0.00656575
+  0.00551745]
+Objective_74 function: 3.4324488082163045
+5.0162129402160645 seconds elapsed for updating du, dv, dB
+Norm dB: 1454.480277576565
+1.4727776050567627 seconds elapsed for eigendecomposition
+2.237710952758789 seconds elapsed for quadratic programming solution
+0.004950523376464844 seconds elapsed for power iteration of B
+0.00012826919555664062 seconds elapsed for calculating wasserstein distance
+Beta_75: [-0.01464541  0.005779   -0.02910227 ...  0.07762156 -0.00656551
+ -0.00551739]
+Objective_75 function: 3.4324494315481537
+4.976176738739014 seconds elapsed for updating du, dv, dB
+Norm dB: 1454.5709844729577
+1.431640863418579 seconds elapsed for eigendecomposition
+2.196068525314331 seconds elapsed for quadratic programming solution
+0.0061130523681640625 seconds elapsed for power iteration of B
+0.0001442432403564453 seconds elapsed for calculating wasserstein distance
+Beta_76: [ 0.01464529 -0.00577906  0.02910202 ... -0.07762178  0.00656532
+  0.00551731]
+Objective_76 function: 3.4324506338676004
+5.039427757263184 seconds elapsed for updating du, dv, dB
+Norm dB: 1454.7442163181072
+1.472668170928955 seconds elapsed for eigendecomposition
+2.242017984390259 seconds elapsed for quadratic programming solution
+0.00497889518737793 seconds elapsed for power iteration of B
+0.0002143383026123047 seconds elapsed for calculating wasserstein distance
+Beta_77: [ 0.01464517 -0.00577908  0.0291017  ... -0.07762204  0.00656508
+  0.00551727]
+Objective_77 function: 3.4324513995413892
+4.971367835998535 seconds elapsed for updating du, dv, dB
+Norm dB: 1454.83834676943
+1.435112476348877 seconds elapsed for eigendecomposition
+2.1998040676116943 seconds elapsed for quadratic programming solution
+0.004922628402709961 seconds elapsed for power iteration of B
+0.00014472007751464844 seconds elapsed for calculating wasserstein distance
+Beta_78: [ 0.01464504 -0.00577911  0.02910146 ... -0.07762226  0.0065649
+  0.0055172 ]
+Objective_78 function: 3.432452912908831
+5.0785510540008545 seconds elapsed for updating du, dv, dB
+Norm dB: 1454.934189525356
+1.4711191654205322 seconds elapsed for eigendecomposition
+2.234079360961914 seconds elapsed for quadratic programming solution
+0.005014181137084961 seconds elapsed for power iteration of B
+0.0002224445343017578 seconds elapsed for calculating wasserstein distance
+Beta_79: [ 0.01464495 -0.00577914  0.02910119 ... -0.07762248  0.0065647
+  0.00551715]
+Objective_79 function: 3.4324538111959004
+4.991944074630737 seconds elapsed for updating du, dv, dB
+Norm dB: 1455.1309379976922
+1.4375767707824707 seconds elapsed for eigendecomposition
+2.203228235244751 seconds elapsed for quadratic programming solution
+0.00493621826171875 seconds elapsed for power iteration of B
+0.0001399517059326172 seconds elapsed for calculating wasserstein distance
+Beta_80: [ 0.01464486 -0.00577915  0.02910091 ... -0.07762271  0.0065645
+  0.00551713]
+Objective_80 function: 3.4324547273324963
+Iteration 80 completed
+5.021558523178101 seconds elapsed for updating du, dv, dB
+Norm dB: 1455.230201099182
+1.4701869487762451 seconds elapsed for eigendecomposition
+2.2361128330230713 seconds elapsed for quadratic programming solution
+0.00513148307800293 seconds elapsed for power iteration of B
+0.0002281665802001953 seconds elapsed for calculating wasserstein distance
+Beta_81: [-0.01464477  0.00577916 -0.02910067 ...  0.07762292 -0.00656432
+ -0.00551709]
+Objective_81 function: 3.43245599584325
+4.972873210906982 seconds elapsed for updating du, dv, dB
+Norm dB: 1455.3311753561782
+1.4372673034667969 seconds elapsed for eigendecomposition
+2.201362133026123 seconds elapsed for quadratic programming solution
+0.004947662353515625 seconds elapsed for power iteration of B
+0.00013136863708496094 seconds elapsed for calculating wasserstein distance
+Beta_82: [-0.0146447   0.00577918 -0.02910043 ...  0.07762311 -0.00656415
+ -0.00551705]
+Objective_82 function: 3.432457096882164
+4.989162921905518 seconds elapsed for updating du, dv, dB
+Norm dB: 1455.4980376579526
+1.4774115085601807 seconds elapsed for eigendecomposition
+2.2432615756988525 seconds elapsed for quadratic programming solution
+0.004954814910888672 seconds elapsed for power iteration of B
+0.00014090538024902344 seconds elapsed for calculating wasserstein distance
+Beta_83: [ 0.01464463 -0.00577919  0.02910017 ... -0.07762332  0.00656397
+  0.00551702]
+Objective_83 function: 3.432458116412863
+4.973661422729492 seconds elapsed for updating du, dv, dB
+Norm dB: 1455.6024292413724
+1.4295928478240967 seconds elapsed for eigendecomposition
+2.194162607192993 seconds elapsed for quadratic programming solution
+0.004966020584106445 seconds elapsed for power iteration of B
+0.0002391338348388672 seconds elapsed for calculating wasserstein distance
+Beta_84: [-0.01464459  0.00577919 -0.02909991 ...  0.07762351 -0.00656379
+ -0.00551701]
+Objective_84 function: 3.4324588918578103
+5.080422639846802 seconds elapsed for updating du, dv, dB
+Norm dB: 1455.7085308191704
+1.4738306999206543 seconds elapsed for eigendecomposition
+2.2388620376586914 seconds elapsed for quadratic programming solution
+0.0049533843994140625 seconds elapsed for power iteration of B
+0.00014472007751464844 seconds elapsed for calculating wasserstein distance
+Beta_85: [ 0.01464455 -0.00577921  0.02909968 ... -0.07762369  0.00656363
+  0.00551697]
+Objective_85 function: 3.432459913071157
+5.06868314743042 seconds elapsed for updating du, dv, dB
+Norm dB: 1455.9191169784194
+1.4358980655670166 seconds elapsed for eigendecomposition
+2.2009828090667725 seconds elapsed for quadratic programming solution
+0.005007743835449219 seconds elapsed for power iteration of B
+0.00022459030151367188 seconds elapsed for calculating wasserstein distance
+Beta_86: [ 0.01464447 -0.0057792   0.02909947 ... -0.07762387  0.00656349
+  0.00551694]
+Objective_86 function: 3.432461363550197
+6.05759596824646 seconds elapsed for updating du, dv, dB
+Norm dB: 1456.0618389852639
+1.4748790264129639 seconds elapsed for eigendecomposition
+2.239551067352295 seconds elapsed for quadratic programming solution
+0.004938602447509766 seconds elapsed for power iteration of B
+0.0001327991485595703 seconds elapsed for calculating wasserstein distance
+Beta_87: [-0.01464443  0.00577921 -0.02909924 ...  0.07762405 -0.00656332
+ -0.00551692]
+Objective_87 function: 3.4324624404950526
+5.009036064147949 seconds elapsed for updating du, dv, dB
+Norm dB: 1456.2064298282896
+1.4309570789337158 seconds elapsed for eigendecomposition
+2.1956145763397217 seconds elapsed for quadratic programming solution
+0.00625300407409668 seconds elapsed for power iteration of B
+0.0002269744873046875 seconds elapsed for calculating wasserstein distance
+Beta_88: [ 0.0146444  -0.00577922  0.02909901 ... -0.07762423  0.00656316
+  0.00551689]
+Objective_88 function: 3.432463492916906
+6.071859359741211 seconds elapsed for updating du, dv, dB
+Norm dB: 1456.4579719740489
+1.4771697521209717 seconds elapsed for eigendecomposition
+2.2436399459838867 seconds elapsed for quadratic programming solution
+0.006098747253417969 seconds elapsed for power iteration of B
+0.0001327991485595703 seconds elapsed for calculating wasserstein distance
+Beta_89: [ 0.01464436 -0.00577921  0.02909878 ... -0.07762442  0.00656298
+  0.00551685]
+Objective_89 function: 3.432464745642965
+4.965670108795166 seconds elapsed for updating du, dv, dB
+Norm dB: 1456.6063458463398
+1.43190336227417 seconds elapsed for eigendecomposition
+2.1968448162078857 seconds elapsed for quadratic programming solution
+0.004996538162231445 seconds elapsed for power iteration of B
+0.00014781951904296875 seconds elapsed for calculating wasserstein distance
+Beta_90: [ 0.01464431 -0.00577922  0.02909858 ... -0.0776246   0.00656283
+  0.0055168 ]
+Objective_90 function: 3.4324662623779583
+5.016500949859619 seconds elapsed for updating du, dv, dB
+Norm dB: 1456.817918955135
+1.4697957038879395 seconds elapsed for eigendecomposition
+2.2416696548461914 seconds elapsed for quadratic programming solution
+0.0061566829681396484 seconds elapsed for power iteration of B
+0.00020694732666015625 seconds elapsed for calculating wasserstein distance
+Beta_91: [-0.01464441  0.00577926 -0.02909828 ...  0.07762475 -0.00656265
+ -0.00551672]
+Objective_91 function: 3.4324674317525785
+4.9700939655303955 seconds elapsed for updating du, dv, dB
+Norm dB: 1456.882324334043
+1.4310436248779297 seconds elapsed for eigendecomposition
+2.1955018043518066 seconds elapsed for quadratic programming solution
+0.006100177764892578 seconds elapsed for power iteration of B
+0.00014448165893554688 seconds elapsed for calculating wasserstein distance
+Beta_92: [-0.01464448  0.00577932 -0.02909803 ...  0.07762489 -0.00656249
+ -0.00551663]
+Objective_92 function: 3.4324688300554955
+5.029569625854492 seconds elapsed for updating du, dv, dB
+Norm dB: 1457.172002426537
+1.4762351512908936 seconds elapsed for eigendecomposition
+2.240964412689209 seconds elapsed for quadratic programming solution
+0.006193637847900391 seconds elapsed for power iteration of B
+0.0002503395080566406 seconds elapsed for calculating wasserstein distance
+Beta_93: [-0.01464461  0.00577938 -0.02909772 ...  0.077625   -0.00656233
+ -0.00551651]
+Objective_93 function: 3.4324705540332388
+5.054609775543213 seconds elapsed for updating du, dv, dB
+Norm dB: 1457.4445388510278
+1.4317126274108887 seconds elapsed for eigendecomposition
+2.1943411827087402 seconds elapsed for quadratic programming solution
+0.004945993423461914 seconds elapsed for power iteration of B
+0.0001392364501953125 seconds elapsed for calculating wasserstein distance
+Beta_94: [ 0.01464485 -0.00577948  0.02909734 ... -0.07762508  0.00656216
+  0.00551634]
+Objective_94 function: 3.4324722333396416
+5.059953689575195 seconds elapsed for updating du, dv, dB
+Norm dB: 1457.516815399287
+1.472083568572998 seconds elapsed for eigendecomposition
+2.2329952716827393 seconds elapsed for quadratic programming solution
+0.005051374435424805 seconds elapsed for power iteration of B
+0.00022649765014648438 seconds elapsed for calculating wasserstein distance
+Beta_95: [ 0.01464505 -0.00577958  0.02909699 ... -0.07762513  0.00656199
+  0.00551616]
+Objective_95 function: 3.432474186896016
+5.153856515884399 seconds elapsed for updating du, dv, dB
+Norm dB: 1457.9330395090149
+1.4348881244659424 seconds elapsed for eigendecomposition
+2.1953179836273193 seconds elapsed for quadratic programming solution
+0.006097078323364258 seconds elapsed for power iteration of B
+0.00014019012451171875 seconds elapsed for calculating wasserstein distance
+Beta_96: [-0.01464525  0.0057797  -0.02909657 ...  0.07762516 -0.00656181
+ -0.00551591]
+Objective_96 function: 3.4324770403612113
+5.002636432647705 seconds elapsed for updating du, dv, dB
+Norm dB: 1458.0168008336116
+1.4735736846923828 seconds elapsed for eigendecomposition
+2.2351620197296143 seconds elapsed for quadratic programming solution
+0.004972696304321289 seconds elapsed for power iteration of B
+0.0001392364501953125 seconds elapsed for calculating wasserstein distance
+Beta_97: [-0.01464546  0.00577982 -0.0290961  ...  0.07762519 -0.00656158
+ -0.00551569]
+Objective_97 function: 3.4324792122774137
+5.002261400222778 seconds elapsed for updating du, dv, dB
+Norm dB: 1458.4177216124467
+1.4362130165100098 seconds elapsed for eigendecomposition
+2.1962976455688477 seconds elapsed for quadratic programming solution
+0.004981040954589844 seconds elapsed for power iteration of B
+0.00020503997802734375 seconds elapsed for calculating wasserstein distance
+Beta_98: [ 0.01464571 -0.00578     0.02909563 ... -0.07762515  0.00656138
+  0.00551536]
+Objective_98 function: 3.4324824004875136
+5.010098218917847 seconds elapsed for updating du, dv, dB
+Norm dB: 1458.810724016083
+1.4723081588745117 seconds elapsed for eigendecomposition
+2.2308576107025146 seconds elapsed for quadratic programming solution
+0.004962444305419922 seconds elapsed for power iteration of B
+0.00014400482177734375 seconds elapsed for calculating wasserstein distance
+Beta_99: [ 0.01464609 -0.00578021  0.02909503 ... -0.07762509  0.00656112
+  0.00551502]
+Objective_99 function: 3.432484936661566
+Traceback (most recent call last):
+  File "/home/users/sv226/everything/clinicalnotes_shift/bashfiles/../pythonscripts/all_attacks_script.py", line 114, in <module>
+    main()
+  File "/home/users/sv226/everything/clinicalnotes_shift/bashfiles/../pythonscripts/all_attacks_script.py", line 104, in main
+    mu, ma, lu, la = perform_experiments(experiment, N_trials = N_experiments_per_combo)
+  File "/home/users/sv226/everything/clinicalnotes_shift/bashfiles/../pythonscripts/all_attacks_script.py", line 89, in perform_experiments
+    m1, m2, l1, l2 = perform_experiment(experiment, test_attacked = test_attacked)
+  File "/home/users/sv226/everything/clinicalnotes_shift/bashfiles/../pythonscripts/all_attacks_script.py", line 69, in perform_experiment
+    experiment.reset_featurizer()
+  File "/home/users/sv226/everything/clinicalnotes_shift/experimenttools/attack_experiment_tools.py", line 98, in reset_featurizer
+    metric.featurizer.reset()
+AttributeError: 'MMDMetric' object has no attribute 'featurizer'
