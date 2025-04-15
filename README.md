@@ -10,7 +10,7 @@ This repository contains my work **in progress** on analyzing clinical notes. I 
 
 ## Overview
 
-Clinical notes and future outcomes arrive at different times, but estimating degradation in model performance is extremely vital for a robust algorithm pipeline. We create a framework for estimating uncertainty at the time of discharge, using only information about the new batch of notes and the historical notes training set.
+Clinical notes and future outcomes arrive at differents times, but estimating degradation in model performance is extremely vital for a robust algorithm pipeline. We create a framework for estimating uncertainty at the time of discharge, using only information about the new batch of notes and the historical notes training set.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e5226e73-484e-4db8-a66b-3ece9eaefc53" width="600">
@@ -89,6 +89,9 @@ These experiments investigate whether we can identify the source of a document b
 1. **Reference Dataset Creation**: Generate embeddings from known sources.
 2. **Evaluation Dataset**: Create embeddings from a randomly selected source.
 3. **Source Identification**: Use metrics like MMD (Maximum Mean Discrepancy) or MAUVE to identify which reference source the evaluation dataset most closely matches.
+
+![source_recovery (3)](https://github.com/user-attachments/assets/f876e89b-991b-456d-87da-530e86ab3a8f)
+
 
 The `source_recovery.py` module implements this methodology, which helps:
 - Understand the distinctiveness of different data sources
