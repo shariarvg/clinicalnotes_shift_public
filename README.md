@@ -20,9 +20,7 @@ Our primary approach for obtaining an estimate of shift is by featurizing datase
 - Maximum Mean Discrepancy [Gretton](https://jmlr.csail.mit.edu/papers/v13/gretton12a.html)
 - MAUVE (https://arxiv.org/abs/2102.01454)
 
-<p align="center">
-  <img src="[https://github.com/user-attachments/assets/e5226e73-484e-4db8-a66b-3ece9eaefc53](https://github.com/user-attachments/assets/289ca989-e20f-4ec7-a53a-badf3c54f6b1)" width="600">
-</p>
+![transformer (2)](https://github.com/user-attachments/assets/e099fc68-fe5d-4997-b6a3-5161c65d8a62)
 
 
 Most of this README was written by an LLM tools, and most of the work is still actively in progress. I'll upload my preprint link, presentation slideshow, and several hundred commits by start of May.
