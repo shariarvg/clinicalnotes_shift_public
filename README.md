@@ -19,8 +19,8 @@ Clinical notes and future outcomes arrive at different times, but estimating deg
 Our primary approach for obtaining an estimate of shift is by featurizing datasets through transformer embeddings, extracting the last hidden state, and applying existing tools from the high-dimensional statistics literature, such as the 
 - Maximum Mean Discrepancy [Gretton](https://jmlr.csail.mit.edu/papers/v13/gretton12a.html)
 - MAUVE (https://arxiv.org/abs/2102.01454)
+![transformer (3)](https://github.com/user-attachments/assets/1af63dae-f33a-4f5c-be22-7556620a5d62)
 
-![transformer (2)](https://github.com/user-attachments/assets/e099fc68-fe5d-4997-b6a3-5161c65d8a62)
 
 
 Most of this README was written by an LLM tools, and most of the work is still actively in progress. I'll upload my preprint link, presentation slideshow, and several hundred commits by start of May.
