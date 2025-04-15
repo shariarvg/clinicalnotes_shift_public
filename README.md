@@ -91,7 +91,7 @@ These experiments investigate whether we can identify the source of a document b
 3. **Source Identification**: Use metrics like MMD (Maximum Mean Discrepancy) or MAUVE to identify which reference source the evaluation dataset most closely matches.
 
 <p align="center">
-  <img src="[https://github.com/user-attachments/assets/e5226e73-484e-4db8-a66b-3ece9eaefc53](https://github.com/user-attachments/assets/f876e89b-991b-456d-87da-530e86ab3a8f)" width="600">
+  <img src="https://github.com/user-attachments/assets/f876e89b-991b-456d-87da-530e86ab3a8f" width="600">
 </p>
 
 The `source_recovery.py` module implements this methodology, which helps:
