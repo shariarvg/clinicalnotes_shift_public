@@ -8,6 +8,13 @@ This repository contains my work **in progress** on analyzing clinical notes. I 
 - The base model for evaluation is [NVIDIA/UF Gatortron-Base](https://www.nature.com/articles/s41746-022-00742-2)
 - My primary interpretability framework (work in progress) is motivated by [HypotheSAE](https://arxiv.org/pdf/2502.04382)
 
+## Overview
+
+Clinical notes and future outcomes arrive at different times, but estimating degradation in model performance is extremely vital for a robust algorithm pipeline. We create a framework for estimating uncertainty at the time of discharge, using only information about the new batch of notes and the historical notes training set.
+![flowchart_framework (2)](https://github.com/user-attachments/assets/0fbb8dcb-d899-47ac-8775-239a994262af)
+
+
+
 Most of this README was written by an LLM tools, and most of the work is still actively in progress. I'll upload my preprint link, presentation slideshow, and several hundred commits by start of May.
 
 ## **Notable Files**
