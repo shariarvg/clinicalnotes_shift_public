@@ -19,6 +19,7 @@ Clinical notes and future outcomes arrive at differents times, but estimating de
 Our primary approach for obtaining an estimate of shift is by featurizing datasets through transformer embeddings, extracting the last hidden state, and applying existing tools from the high-dimensional statistics literature, such as the 
 - Maximum Mean Discrepancy [Gretton](https://jmlr.csail.mit.edu/papers/v13/gretton12a.html)
 - MAUVE (https://arxiv.org/abs/2102.01454)
+  
 ![transformer (3)](https://github.com/user-attachments/assets/1af63dae-f33a-4f5c-be22-7556620a5d62)
 
 
@@ -108,6 +109,12 @@ This methodology identifies dimensions in sparse autoencoder representations tha
 3. **Sparse Encoding**: Generate sparse encodings for both train and test sets.
 4. **Dimension Analysis**: Find dimensions with the largest distributional differences.
 5. **Interpretation**: Identify notes with the largest activations for the most different dimensions.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/783876a4-a3db-4428-881c-0352a14119e8" width="600">
+</p>
+
+
 
 The `distributional_comparison.py` script implements this approach, which helps:
 - Identify systematic differences between data sources
