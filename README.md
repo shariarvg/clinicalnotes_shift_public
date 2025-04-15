@@ -1,6 +1,6 @@
 # **MIMshift: A Benchmark and Framework for Dataset Shift Estimation in Clinical Notes**
 
-Update 4/15: (a slideshow!)[https://drive.google.com/drive/u/0/home](https://drive.google.com/file/d/1sXbg8ecEIq_8XqNRzGl3ZwYTMcndt7Ka/view?usp=sharing)
+Update 4/15: [(a slideshow!)](https://drive.google.com/drive/u/0/home](https://drive.google.com/file/d/1sXbg8ecEIq_8XqNRzGl3ZwYTMcndt7Ka/view?usp=sharing)
 
 Monitoring the robustness of deep prediction models to concept drift is challenging when the exogenous variables are unstructured, particularly in the case of text. Clinical notes provide a natural setting for text drift quantification because clinician note-writing practices are constantly evolving and degradation in prediction model performance can literally be a life-or-death problem. We seek to describe shifts that emerged in the MIMIC-IV-Note database between 2008 and 2020, identify shifts that cause degradation in extraction and prediction models, and formulate a framework for predicting model degradation from notes alone. For the last objective, we jointly build a benchmark of real (temporal) and synthetic (perturbation) shifts, and evaluate the performance of existing high-dimensional statistical metrics on these shifts. We go beyond the classic representations of clinical notes by understanding how post-training refinements for sparsity and style invariance can both affect model robustness and provide a glimpse into features that the model is learning from notes. 
 
