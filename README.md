@@ -12,7 +12,8 @@ This repository contains my work **in progress** on analyzing clinical notes. I 
 
 Clinical notes and future outcomes arrive at different times, but estimating degradation in model performance is extremely vital for a robust algorithm pipeline. We create a framework for estimating uncertainty at the time of discharge, using only information about the new batch of notes and the historical notes training set.
 
-![flowchart_framework (3)](https://github.com/user-attachments/assets/e5226e73-484e-4db8-a66b-3ece9eaefc53)
+<img src="https://github.com/user-attachments/assets/e5226e73-484e-4db8-a66b-3ece9eaefc53" width="600">
+
 
 
 Most of this README was written by an LLM tools, and most of the work is still actively in progress. I'll upload my preprint link, presentation slideshow, and several hundred commits by start of May.
