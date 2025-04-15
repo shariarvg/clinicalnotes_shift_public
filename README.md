@@ -15,8 +15,6 @@ Clinical notes and future outcomes arrive at different times, but estimating deg
 ![flowchart_framework (3)](https://github.com/user-attachments/assets/e5226e73-484e-4db8-a66b-3ece9eaefc53)
 
 
-
-
 Most of this README was written by an LLM tools, and most of the work is still actively in progress. I'll upload my preprint link, presentation slideshow, and several hundred commits by start of May.
 
 ## **Notable Files**
